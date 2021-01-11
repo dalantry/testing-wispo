@@ -1,0 +1,4 @@
+.filtres{
+    display: flex;
+    flex-direction: column;
+}

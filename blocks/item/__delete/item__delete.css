@@ -1,0 +1,9 @@
+.item__delete{
+  background-image: url(../../../images/button_delete.svg);
+  background-color: #ffffff;
+  background-size: cover;
+  border: none;
+  width: 16px;
+  height: 16px;
+  margin-left: -25px;
+}

@@ -1,0 +1,15 @@
+.item__buy {
+  max-width: 125px;
+  margin-left: 21px;
+  padding: 0;
+  background: none;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+}

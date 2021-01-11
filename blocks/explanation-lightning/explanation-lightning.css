@@ -1,0 +1,23 @@
+.explanation-lightning {
+  display: none;
+  width: 218px;
+  height: 82px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  position: absolute;
+  left: 315px;
+  top: 1600px;
+  z-index: 2;
+  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.2);
+}
+
+.explanation-lightning::before {
+  content: "";
+  border: solid transparent;
+  position: absolute;
+  top: 100%;
+  left: 100px;
+  border-top-color: #ffffff;
+  border-width: 9px;
+}

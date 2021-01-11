@@ -1,0 +1,74 @@
+
+@import url(../styles/normalize.css);
+@import url(../fonts/montserrat/stylesheet.css);
+
+/*page*/
+@import url(../blocks/page/page.css);
+
+/*compare*/
+@import url(../blocks/compare/compare.css);
+
+/*compare-top*/
+@import url(../blocks/compare-top/compare-top.css);
+
+/*item*/
+@import url(../blocks/item/item.css);
+@import url(../blocks/item/__card/item__card.css);
+@import url(../blocks/item/__image/item__image.css);
+@import url(../blocks/item/__info/item__info.css);
+@import url(../blocks/item/__title/item__title.css);
+@import url(../blocks/item/__name/item__name.css);
+@import url(../blocks/item/__price/item__price.css);
+@import url(../blocks/item/__price/_old/item__price_old.css);
+@import url(../blocks/item/__price/_new/item__price_new.css);
+@import url(../blocks/item/__delete/item__delete.css);
+@import url(../blocks/item/__buttons/item__buttons.css);
+@import url(../blocks/item/__basket/item__basket.css);
+@import url(../blocks/item/__buy/item__buy.css);
+@import url(../blocks/item/__phone/item__phone.css);
+
+/*compare-content*/
+@import url(../blocks/compare-content/compare-content.css);
+
+/*characteristics*/
+@import url(../blocks/characteristics/__characteristic/characteristics__characteristic.css);
+@import url(../blocks/characteristics/characteristics.css);
+
+/*filtres*/
+@import url(../blocks/filtres/filtres.css);
+@import url(../blocks/filtres-title/filtres-title.css);
+@import url(../blocks/filtres-title/__title/filtres-title__text.css);
+@import url(../blocks/filtres/__list/filtres__list.css);
+@import url(../blocks/filtres/__option/filtres__option.css);
+@import url(../blocks/filtres/__radio/filtres__radio.css);
+
+/*characteristic*/
+@import url(../blocks/characteristic/__title/characteristic__title.css);
+@import url(../blocks/characteristic/__subtitle/characteristic__subtitle.css);
+@import url(../blocks/characteristic/__item/characteristic__item.css);
+@import url(../blocks/characteristic/__div/characteristic__div.css);
+
+/*compare-bottom*/
+@import url(../blocks/compare-bottom/compare-bottom.css);
+@import url(../blocks/compare-bottom/__text/compare-bottom__text.css);
+@import url(../blocks/compare-bottom/__clear/compare-bottom__clear.css);
+@import url(../blocks/compare-bottom/__return/compare-bottom__return.css);
+@import url(../blocks/compare-bottom/__buttons/compare-bottom__buttons.css);
+
+/*bonus*/
+@import url(../blocks/bonus/bonus.css);
+@import url(../blocks/bonus/__text/bonus__text.css);
+@import url(../blocks/bonus/__logo/bonus__logo.css);
+
+/*button*/
+@import url(../blocks/button/__text/button__text.css);
+@import url(../blocks/button/__logo/button__logo.css);
+@import url(../blocks/button/button.css);
+
+/*explanation*/
+@import url(../blocks/explanation/explanation.css);
+
+/*explanation-lightning*/
+@import url(../blocks/explanation-lightning/__text/explanation-lightning__text.css);
+@import url(../blocks/explanation-lightning/explanation-lightning.css);
+@import url(../blocks/explanation-lightning/_visible/explanation-lightning_visible.css);
