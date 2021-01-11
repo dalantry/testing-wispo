@@ -8,3 +8,10 @@
   line-height: 17px;
   color: rgba(154, 154, 154, 1);
 }
+
+@media screen and (max-width: 1600px){
+  .item__title{
+    font-size: 10px;
+  line-height: 13px;
+  }
+}

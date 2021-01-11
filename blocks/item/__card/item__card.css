@@ -1,5 +1,5 @@
 .item__card{
     margin-top: 23px;
     display: grid;
-    grid-template-columns: 140px 270px 1px ;
+    grid-template-columns: 37% 63% 1px ;
 }
