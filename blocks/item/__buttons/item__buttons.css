@@ -1,0 +1,6 @@
+.item__buttons{
+    max-width: 260px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+}

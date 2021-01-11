@@ -1,0 +1,4 @@
+.compare-bottom__buttons{
+    display: flex;
+    flex-direction: row;
+}

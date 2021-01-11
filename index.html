@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Белая техника</title>
+</head>
+
+<body>
+    <main class="page">
+        <section class="compare">
+            <div class="compare-top">
+                <div class="filtres">
+                    <div class="filtres-title">
+                        <h2 class="filtres-title__text">Для категорий</h2>
+                        <img src="/images/explanation.svg" alt="изображение" class="explanation button" />
+                    </div>
+                    <select name="list" id="list" class="filtres__list button">
+                        <option value="" class="filtres__option">Смартфоны</option>
+                    </select>
+                    <div class="filtres__radio button">
+                        <input type="radio" value="1" name="all" checked>
+                        <label for="all">Все характеристики</label>
+                    </div>
+                    <div class="filtres__radio button">
+                        <input type="radio" value="2" name="differences">
+                        <label for="differences">Показать только различия</label>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item__card">
+                        <img src="/images/item1.png" alt="изобрпажение" class="item__image">
+
+                        <div class="item__info">
+                            <h2 class="item__title">Смартфоны</h2>
+                            <p class="item__name">Apple iPhone 11 64 Gb (Gold)</p>
+                            <div class="item__price">
+                                <p class="item__price_new">49 999 ₽</p>
+                                <p class="item__price_old">60 999 ₽</p>
+                            </div>
+                            
+                            <div class="item__buttons">
+                                <button class="item__basket button"><p class="button__text">В корзину</p></button>
+                                <button class="item__buy button"><img src="/images/button_phone.svg" alt="трубка" class='button__logo'><p class="button__text">Купить в 1 клик</p></button>
+                            </div>
+                            
+                        </div>
+                        <button class="item__delete button"></button>
+                    </div>
+                    <div class="item__card">
+                        <img src="/images/item2.png" alt="изобрпажение" class="item__image">
+                        <div class="item__info">
+                            <h2 class="item__title">Смартфоны</h2>
+                            <p class="item__name">Xiaomi Redmi Note 8 Pro (blue)</p>
+                            <div class="item__price">
+                                <p class="item__price_new">16 700 ₽</p>
+                                <p class="item__price_old">19 999 ₽</p>
+                            </div>
+                            <div class="item__buttons">
+                                <button class="item__basket button"><p class="button__text">В корзину</p></button>
+                                <button class="item__buy button"><img src="/images/button_phone.svg" alt="трубка" class="button__logo"><p class="button__text">Купить в 1 клик</p></button>
+                            </div>
+                            
+                        </div>
+                        <button class="item__delete button"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="compare-content">
+                <div class="characteristics">
+                    <div class="characteristics__characteristic">
+                        <h2 class="characteristic__title">Бонусные рубли</h2>
+                        <div class="bonus">
+                            <img src="/images/bonus.png" alt="бонус" class="bonus__logo">
+                            <p class="bonus__text">+ 2 000 бонусов</p>
+                        </div>
+                        <div class="bonus">
+                            <img src="/images/bonus.png" alt="бонус" class="bonus__logo">
+                            <p class="bonus__text">+ 1 000 бонусов</p>
+                        </div>
+                    </div>
+                    <div class="characteristics__characteristic">
+                        <h2 class="characteristic__title">Акции и специальные предложения</h2>
+                        <p class="characteristic__item">Рассрочка </p>
+                        <p class="characteristic__item">Скидка 50% на наушники </p>
+                    </div>
+                    <div class="characteristics__characteristic">
+                        <h2 class="characteristic__title">Наличие</h2>
+                        <p class="characteristic__item">В наличии </p>
+                        <p class="characteristic__item">От 3 до 5 дней</p>
+                    </div>
+                    <h2 class="characteristic__title">Основные</h2>
+                    <div class="characteristics__characteristic">
+                        <h3 class="characteristic__subtitle">Операционная система</h3>
+                        <p class="characteristic__item">iOS 13</p>
+                        <p class="characteristic__item">iOS 13</p>
+                        <h3 class="characteristic__subtitle">Цвет</h3>
+                        <p class="characteristic__item">золотой</p>
+                        <p class="characteristic__item">черный</p>
+                        <h3 class="characteristic__subtitle">Год выпуска</h3>
+                        <p class="characteristic__item">2019</p>
+                        <p class="characteristic__item">2019</p>
+                    </div>
+                    <h2 class="characteristic__title">Процессор</h2>
+                    <div class="characteristics__characteristic">
+                        <h3 class="characteristic__subtitle">Производитель</h3>
+                        <p class="characteristic__item">Apple</p>
+                        <p class="characteristic__item">Apple</p>
+                        <h3 class="characteristic__subtitle">Тип</h3>
+                        <p class="characteristic__item">A13 Bionic</p>
+                        <p class="characteristic__item">A13 Bionic</p>
+                    </div>
+                    <h2 class="characteristic__title">Экран</h2>
+                    <div class="characteristics__characteristic">
+                        <h3 class="characteristic__subtitle">Диагональ (дюймов)</h3>
+                        <p class="characteristic__item">5,8</p>
+                        <p class="characteristic__item">5,8</p>
+                        <h3 class="characteristic__subtitle">Тип экрана </h3>
+                        <p class="characteristic__item">Super Retina XDR</p>
+                        <p class="characteristic__item">Super Retina XDR</p>
+                        <h3 class="characteristic__subtitle">Разрешение экрана</h3>
+                        <p class="characteristic__item">2436×1125 точек</p>
+                        <p class="characteristic__item">2436×1125 точек</p>
+                    </div>
+                    <h2 class="characteristic__title">Камера</h2>
+                    <div class="characteristics__characteristic">
+                        <h3 class="characteristic__subtitle">Количество основных камер</h3>
+                        <p class="characteristic__item">3</p>
+                        <p class="characteristic__item">3</p>
+                        <h3 class="characteristic__subtitle">Разрешения основных камер</h3>
+                        <p class="characteristic__item">12 МПикс, 12 МПикс, 12 МПикс</p>
+                        <p class="characteristic__item">12 МПикс, 12 МПикс, 12 МПикс</p>
+                        <h3 class="characteristic__subtitle">Функции основной камеры</h3>
+                        <p class="characteristic__item">Режим «Портрет», портретное освещение,
+                            оптическая стабилизация, вспышка True Tone, Focus Pixels</p>
+                        <p class="characteristic__item">Режим «Портрет», портретное освещение,
+                            оптическая стабилизация, вспышка True Tone, Focus Pixels</p>
+                        <h3 class="characteristic__subtitle">Фронтальная камера</h3>
+                        <p class="characteristic__item">есть</p>
+                        <p class="characteristic__item">есть</p>
+                        <h3 class="characteristic__subtitle">Разрешение фронтальной камеры</h3>
+                        <p class="characteristic__item">12 Мпикс</p>
+                        <p class="characteristic__item">12 Мпикс</p>
+                        <h3 class="characteristic__subtitle">Вспышка</h3>
+                        <p class="characteristic__item">есть, светодиодная</p>
+                        <p class="characteristic__item">есть, светодиодная</p>
+                    </div>
+                    <h2 class="characteristic__title">Память</h2>
+                    <div class="characteristics__characteristic">
+                        <h3 class="characteristic__subtitle">Встроенная память</h3>
+                        <p class="characteristic__item">64 Гб</p>
+                        <p class="characteristic__item">64 Гб</p>
+                    </div>
+                    <h2 class="characteristic__title">Питание</h2>
+                    <div class="characteristics__characteristic">
+                        <h3 class="characteristic__subtitle">Тип разъема для зарядки</h3>
+                        <p class="characteristic__item">Lightning</p>
+                        <p class="characteristic__item">Lightning</p>
+                        <h3 class="characteristic__subtitle">Функция быстрой зарядки </h3>
+                        <p class="characteristic__item">есть</p>
+                        <p class="characteristic__item">есть</p>
+                        <h3 class="characteristic__subtitle">Функция беспроводной зарядки</h3>
+                        <p class="characteristic__item">есть</p>
+                        <p class="characteristic__item">есть</p>
+                    </div>
+                    <h2 class="characteristic__title">Подключение</h2>
+                    <div class="characteristics__characteristic">
+                      <div class="characteristic__div">
+                        <h3 class="characteristic__subtitle">Разъем Lightning 8 Pin</h3>
+                        <img src="/images/explanation.svg" alt="изображение" class="explanation button button__lightning" />
+                      </div>
+                        <p class="characteristic__item">есть</p>
+                        <p class="characteristic__item">есть</p>
+                        <h3 class="characteristic__subtitle">Разъем для наушников</h3>
+                        <p class="characteristic__item">Lightning</p>
+                        <p class="characteristic__item">Lightning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="compare-bottom">
+                <p class="compare-bottom__text">Смартфон Apple iPhone 11 64GB Black (MWLT2RU/A)
+                    и Смартфон Apple iPhone SE 2020 128GB Black (MXD02RU/A) - сравнение основных характеристик моделей
+                </p>
+                <div class="compare-bottom__buttons">
+                    <button class="compare-bottom__clear button"><p class="button__text">Очистить список</p></button>
+                    <button class="compare-bottom__return button"><img src="/images/Vector 2.svg" alt="" class="button__logo"><p class="button__text">Назад к товарам</p></button>
+                </div>
+            </div>
+            <div class="explanation-lightning">
+                 <p class="explanation-lightning__text">4500 мАч - это примерно 30 часов активного 
+                     использования устройства</p>
+            </div>
+        </section>
+    </main>
+    <script src="/scripts/script.js"></script>
+</body>
+
+</html>
